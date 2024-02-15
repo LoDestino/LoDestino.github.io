@@ -1,9 +1,119 @@
-div {
-    display:grid;
-    place-items: center;
-    color: white;
-}
 html{
-    background-color:#171717;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-family: calibri;
+    background-color: rgb(0,0,0);
+}
+
+#title{
+    display: grid;
+    place-items: center;
+    padding-top: 2.5%;
+    scale: 2;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+}
+
+#loginbox{
+    display: grid;
+    place-content: center;
+
+    border-style: solid;
+    border-color: hsl(0, 0%, 15%);
+    border-width: 10;
+
+    background-color: hsl(0, 0%, 5%);
+    width: 450px;
+    height: 550px;
+
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#entry1{
+    position: relative;
+
+    border-style: solid;
+    border-color: hsl(0,0%,25%);
+    border-width: 4;
+
+    top: -15px;
+    left: -85px;
+
+    height: 50px;
+    width: 200%;
+
+    border-radius: 15px;
+
+    background-color: hsl(0,0%,75%);
+}
+
+#entry2{
+    position: relative;
+
+    border-style: solid;
+    border-color: hsl(0,0%,25%);
+    border-width: 4;
+
+    top: 30px;
+    left: -85px;
+
+    height: 50px;
+    width: 200%;
+
+    border-radius: 15px;
+
+    background-color: hsl(0,0%,75%);
+}
+
+#loginbutton{
+    position: relative;
+
+    border-color: hsl(0,0%,20%);
+    border-style: solid;
+    border-width: 3px;
+
+    color: white;
+    background-color: hsl(0, 0%, 10%);
+    height: 50px;
+    border-radius: 10px;
+
+    top: 100px;
+
+    margin: 0;
+}
+
+#loginbutton:hover{
+    background-color: hsl(0,0%,20%);
+    border-color: hsl(0,0%,30%);
+}
+
+#loginbutton:active{
+    background-color: hsl(0,0%,30%);
+    border-color: hsl(0,0%,40%);
+}
+
+#loginlabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30;
+
+    position: absolute;
+
+    height: 100px;
+    width: 350px;
+
+    margin-left: 52.5;
+    margin-top: 20;
+
+    background-color: hsl(0,0%,15%);
+    border-radius: 15px;
 }
